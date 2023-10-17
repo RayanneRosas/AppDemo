@@ -15,6 +15,9 @@
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
     "step_definitions": "cypress/support/step_definations"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "save-dev": "^0.0.1-security"
   }
-  
 }
