@@ -19,9 +19,10 @@ import './commands'
 const faker = require('faker-br');
 
 global.dados={
-    nome: faker.name.firstName(),
-    email: faker.internet.email(),
-    senha: faker.internet.password()
+    origem: faker.address.city(),
+    destino: faker.address.city(),
+    dataIda: faker.date.future(),
+    dataVolta: faker.date.future()
 }
 
 // Alternatively you can use CommonJS syntax:

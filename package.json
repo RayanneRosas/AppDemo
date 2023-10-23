@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "cypress-cucumber-preprocessor": "^4.3.1",
+    "faker-br": "^0.4.1",
     "save-dev": "^0.0.1-security"
   }
 }
